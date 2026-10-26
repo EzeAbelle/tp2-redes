@@ -1,0 +1,12 @@
+services:
+  web:
+    image: nginx:stable-alpine
+    container_name: tp2-web
+    restart: always
+    ports:
+      - "10.10.0.1:80:80"
+    volumes:
+      - /home:/home:ro
+      - ./web/nginx.conf:/etc/nginx/conf.d/default.conf:ro
+      - ./web/html:/usr/share/nginx/html:ro
+      - ./web/htpasswd:/etc/nginx/htpasswd:ro
