@@ -1,0 +1,1 @@
+*/10 * * * * root /home/eze/tp2-redes/scripts/generar-index.sh
