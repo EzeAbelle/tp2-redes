@@ -1,0 +1,9 @@
+[Interface]
+Address = 10.10.0.1/24
+ListenPort = 51820
+PrivateKey = <CLAVE_PRIVADA_SERVIDOR>
+
+[Peer]
+# PC de Eze
+PublicKey = IR/z1/4kiDOCK3p7IS/KpsXh2MM4J5J0hq7rKFn3HGk=
+AllowedIPs = 10.10.0.2/32
